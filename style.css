@@ -1,0 +1,121 @@
+.logo {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.d-block.mx-auto.mb-4 {
+    border-radius: 50%;
+    width: 180px;
+    /* Set the width and height to the same value */
+    height: 180px;
+    border: black solid;
+}
+
+#sec2 {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    #contact .contact-items {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+}
+
+.row {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.title-padding {
+    padding: 3rem;
+}
+
+#sec2 {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    margin-top: 0%;
+}
+
+.bottom-container {
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    font-size: xx-small;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* Make sure it stays on top */
+    transition: top 0.3s;
+    /* Smooth transition */
+    margin-bottom: 0;
+}
+
+.navbar.hidden {
+    top: -100px;
+    /* Moves navbar out of the view */
+}
+
+.navbar:hover {
+    top: 0;
+}
+
+#sec1 {
+    background-color: #A0DEFF;
+    margin-bottom: 0%;
+}
+
+#sec2 {
+    background-color: #d7f1f8;
+    margin-top: 0;
+}
+
+body {
+    background-color: #e1f3f8;
+}
+
+h1.display-5 {
+    color: #079ed0 !important;
+}
+
+#sec7 {
+    background-color: #A0DEFF;
+    bot
+}
+
+.copyright {
+    margin-bottom: 0;
+}
+
+.custom-card-grid .col {
+    flex: 0 0 10%;
+    /* Adjusts the card width, making each card smaller */
+    max-width: 10%;
+    /* Ensures each card does not exceed 25% width */
+}
+
+.btn-outline-secondary {
+    color: #079ed0;
+    /* Change text color */
+    border-color: #079ed0;
+    /* Change border color */
+}
+
+.btn-outline-secondary:hover {
+    color: #079ed0;
+    /* Change text color on hover */
+    background-color: #A0DEFF;
+    /* Change background color on hover */
+    border-color: #CAF4FF;
+    /* Change border color on hover */
+}
